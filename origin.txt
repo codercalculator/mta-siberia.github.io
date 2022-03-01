@@ -1,0 +1,168 @@
+Uri: https://perfect-rp.ru/
+File Name: D:\PerfectSait\perfect-rp.ru\index.htm
+Content Type: text/html
+
+Uri: https://perfect-rp.ru/images/logo.png
+File Name: D:\PerfectSait\perfect-rp.ru\images\logo.png
+Content Type: image/png
+
+Uri: https://perfect-rp.ru/css/libs/bootstrap.min.css
+File Name: D:\PerfectSait\perfect-rp.ru\css\libs\bootstrap.min.css
+Content Type: text/css
+
+Uri: https://perfect-rp.ru/css/libs/nice-select/nice-select.css
+File Name: D:\PerfectSait\perfect-rp.ru\css\libs\nice-select\nice-select.css
+Content Type: text/css
+
+Uri: https://perfect-rp.ru/css/libs/animate.min.css
+File Name: D:\PerfectSait\perfect-rp.ru\css\libs\animate.min.css
+Content Type: text/css
+
+Uri: https://perfect-rp.ru/css/style.css
+File Name: D:\PerfectSait\perfect-rp.ru\css\style.css
+Content Type: text/css
+
+Uri: https://perfect-rp.ru/css/media.css
+File Name: D:\PerfectSait\perfect-rp.ru\css\media.css
+Content Type: text/css
+
+Uri: https://perfect-rp.ru/shop
+File Name: D:\PerfectSait\perfect-rp.ru\shop.html
+Content Type: text/html
+
+Uri: https://perfect-rp.ru/play
+File Name: D:\PerfectSait\perfect-rp.ru\play.html
+Content Type: text/html
+
+Uri: https://perfect-rp.ru/images/icons/menu.png
+File Name: D:\PerfectSait\perfect-rp.ru\images\icons\menu.png
+Content Type: image/png
+
+Uri: https://perfect-rp.ru/images/icons/close.png
+File Name: D:\PerfectSait\perfect-rp.ru\images\icons\close.png
+Content Type: image/png
+
+Uri: https://perfect-rp.ru/images/icons/vk.png
+File Name: D:\PerfectSait\perfect-rp.ru\images\icons\vk.png
+Content Type: image/png
+
+Uri: https://perfect-rp.ru/images/index_text.png
+File Name: D:\PerfectSait\perfect-rp.ru\images\index_text.png
+Content Type: image/png
+
+Uri: https://perfect-rp.ru/images/btn_start.png
+File Name: D:\PerfectSait\perfect-rp.ru\images\btn_start.png
+Content Type: image/png
+
+Uri: https://perfect-rp.ru/images/index_pers.png
+File Name: D:\PerfectSait\perfect-rp.ru\images\index_pers.png
+Content Type: image/png
+
+Uri: https://perfect-rp.ru/images/footer_logo.png
+File Name: D:\PerfectSait\perfect-rp.ru\images\footer_logo.png
+Content Type: image/png
+
+Uri: https://perfect-rp.ru/js/libs/jquery.min.js
+File Name: D:\PerfectSait\perfect-rp.ru\js\libs\jquery.min.js
+Content Type: application/javascript
+
+Uri: https://perfect-rp.ru/js/libs/vue.min.js
+File Name: D:\PerfectSait\perfect-rp.ru\js\libs\vue.min.js
+Content Type: application/javascript
+
+Uri: https://perfect-rp.ru/js/libs/bootstrap.min.js
+File Name: D:\PerfectSait\perfect-rp.ru\js\libs\bootstrap.min.js
+Content Type: application/javascript
+
+Uri: https://perfect-rp.ru/js/libs/jquery.nice-select.min.js
+File Name: D:\PerfectSait\perfect-rp.ru\js\libs\jquery.nice-select.min.js
+Content Type: application/javascript
+
+Uri: https://perfect-rp.ru/js/main.js?v=2
+File Name: D:\PerfectSait\perfect-rp.ru\js\main.js
+Content Type: application/javascript
+
+Uri: https://perfect-rp.ru/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js
+File Name: D:\PerfectSait\perfect-rp.ru\cdn-cgi\scripts\7d0fa10a\cloudflare-static\rocket-loader.min.js
+Content Type: application/javascript
+
+Uri: https://perfect-rp.ru/images/bg_index.png
+File Name: D:\PerfectSait\perfect-rp.ru\images\bg_index.png
+Content Type: image/png
+
+Uri: https://perfect-rp.ru/images/bg_play.png
+File Name: D:\PerfectSait\perfect-rp.ru\images\bg_play.png
+Content Type: image/png
+
+Uri: https://perfect-rp.ru/images/bg_donate.png
+File Name: D:\PerfectSait\perfect-rp.ru\images\bg_donate.png
+Content Type: image/png
+
+Uri: https://perfect-rp.ru/images/logo_qiwi.svg
+File Name: D:\PerfectSait\perfect-rp.ru\images\logo_qiwi.svg
+Content Type: image/svg+xml
+
+Uri: https://perfect-rp.ru/images/pay_types_unitpay.png
+File Name: D:\PerfectSait\perfect-rp.ru\images\pay_types_unitpay.png
+Content Type: image/png
+
+Uri: https://perfect-rp.ru/images/icons/interface.png
+File Name: D:\PerfectSait\perfect-rp.ru\images\icons\interface.png
+Content Type: image/png
+
+Uri: https://perfect-rp.ru/images/icons/confirm.png
+File Name: D:\PerfectSait\perfect-rp.ru\images\icons\confirm.png
+Content Type: image/png
+
+Uri: https://perfect-rp.ru/images/donate_pers.png
+File Name: D:\PerfectSait\perfect-rp.ru\images\donate_pers.png
+Content Type: image/png
+
+Uri: https://perfect-rp.ru/images/double.png
+File Name: D:\PerfectSait\perfect-rp.ru\images\double.png
+Content Type: image/png
+
+Uri: https://perfect-rp.ru/images/sale_text.png
+File Name: D:\PerfectSait\perfect-rp.ru\images\sale_text.png
+Content Type: image/png
+
+Uri: https://perfect-rp.ru/images/pack_randcar.png
+File Name: D:\PerfectSait\perfect-rp.ru\images\pack_randcar.png
+Content Type: image/png
+
+Uri: https://perfect-rp.ru/images/icons/shopping-cart.png
+File Name: D:\PerfectSait\perfect-rp.ru\images\icons\shopping-cart.png
+Content Type: image/png
+
+Uri: https://perfect-rp.ru/images/pack_randskin.png
+File Name: D:\PerfectSait\perfect-rp.ru\images\pack_randskin.png
+Content Type: image/png
+
+Uri: https://perfect-rp.ru/images/pack_randdoncar.png
+File Name: D:\PerfectSait\perfect-rp.ru\images\pack_randdoncar.png
+Content Type: image/png
+
+Uri: https://perfect-rp.ru/images/blat_text.png
+File Name: D:\PerfectSait\perfect-rp.ru\images\blat_text.png
+Content Type: image/png
+
+Uri: https://perfect-rp.ru/images/major_text.png
+File Name: D:\PerfectSait\perfect-rp.ru\images\major_text.png
+Content Type: image/png
+
+Uri: https://perfect-rp.ru/images/play_text.png
+File Name: D:\PerfectSait\perfect-rp.ru\images\play_text.png
+Content Type: image/png
+
+Uri: https://perfect-rp.ru/images/pc_picture.png
+File Name: D:\PerfectSait\perfect-rp.ru\images\pc_picture.png
+Content Type: image/png
+
+Uri: https://perfect-rp.ru/images/btn_start_2.png
+File Name: D:\PerfectSait\perfect-rp.ru\images\btn_start_2.png
+Content Type: image/png
+
+Uri: https://perfect-rp.ru/images/mobile_picture.png
+File Name: D:\PerfectSait\perfect-rp.ru\images\mobile_picture.png
+Content Type: image/png
+

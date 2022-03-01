@@ -1,0 +1,266 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<link rel="shortcut icon" href="images\logo.png" type="image/png">
+<link rel="stylesheet" type="text/css" href="css\libs\bootstrap.min.css">
+<link rel="stylesheet" href="css\libs\nice-select\nice-select.css">
+<link rel="stylesheet" href="css\libs\animate.min.css">
+<link rel="stylesheet" href="css\style.css">
+<link rel="stylesheet" href="css\media.css">
+<meta name="keywords" content="гта россия,crmp,крмп,перфект крмп,perfect crmp,perfect rp,крмп с бонусом,бонусник крмп,скачать крмп,gta россия,gta russia,gta crmp,perfect,perfect-rp,perfect role play,gta,criminal russia,cr-mp,gta,rp,roleplay,role play,samp,sa-mp,самп,са-мп,перфект,перфект-рп,перфект роле плей,гта,криминальная россия,кр-мп,играть онлайн,играть по сети,бесплатная игра,сервер,играть в гта,играть в gta,рп,начать">
+<meta name="robots" content="index,follow">
+<title>Moscow RP - Магазин</title>
+</head>
+<body class="donate_page">
+<div id="app_block">
+<header>
+<div class="container">
+<div class="row">
+<div class="mobile_menu">
+<img src="images\icons\menu.png" class="icon_menu" alt="">
+<img src="images\icons\close.png" class="icon_close" alt="">
+</div>
+<ul class="nav_menu">
+<li><a href="index.html">Главная</a></li>
+<li><a href="ссылка">Форум (не работает)</a></li>
+<li><a href="shop.html">Донат
+</a></li>
+<li><a href="play.html">Как начать играть</a></li>
+<li><a href="https://vk.com/kremlinrp"><img src="images\icons\vk.png" alt=""></a></li>
+</ul>
+</div>
+</div>
+</header>
+<div class="modal fade" id="exampleModalScrollable" tabindex="2" role="dialog" style="z-index: 1999;" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-scrollable modal-xl modal-dialog-centered" role="document">
+<div class="modal-content" style="padding-bottom: 50px;">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalScrollableTitle">Оферта:</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<img src="images\icons\interface.png" alt="">
+</button>
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade" id="modalBuy" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal-content">
+<div class="modal-body">
+<form action="https://perfect-rp.ru/unitpay/buyPackages" method='POST' id="packages">
+<input type="hidden" name="_token" value="uz6EvWOylNO4KHA0m0t3XtfbJWgXQyBx0QiFglNO">
+<div class="decs">Вы собираетесь купить бла бла за 40000 рублей, введите свой ник</div>
+<input type="hidden" name="id_pack" id="id_modal">
+<div class="alert" id="alert_modal"></div>
+<div class="input_wrap">
+<select name="server">
+<option value="0">Сервер</option>
+<option value="1">Moscow RP</option>
+</select>
+</div>
+<div class="input_wrap">
+<input type="text" name="account" placeholder="Введите ник">
+</div>
+<div class="info">
+Вы будете перенаправлены на сайт платежной системы <br><br>
+Обратите внимание на комиссии этой системы. Они будут указываться при выборе способа оплаты. Адрес, на который будет отправлен чек, введите ниже: <br><br>
+</div>
+<div class="input_wrap">
+<input type="text" name="email" id="email_confirm_modal" placeholder="Ваша почта">
+</div>
+<div class="input_wrap">
+<div class="checkbox">
+<div class="block">
+<img src="images\icons\confirm.png" alt="">
+</div>
+<input type="checkbox" name="" id="ofert_modal">
+</div>
+<div class="offtext">
+согласен с
+<span data-toggle="modal" data-target="#exampleModalScrollable"><a href="oferta.html">Офертой</a></span>
+</div>
+</div>
+<div class="line_bottoms">
+<button type="submit" id="pack_btn">Купить</button>
+<button type="button" data-dismiss="modal" aria-label="Close">Отмена</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<section class="donate_section">
+<div class="container">
+<div class="row">
+<img src="images\donate_pers.png" alt="" class="pers animated zoomInRight">
+<div class="col-xl-6 col-lg-6">
+<div class="donate_form animated slideInLeft" id="donate_window">
+<div class="title">Пополнить счет</div>
+<form action="https://perfect-rp.ru/unitpay/createDonate" method='POST' id="donate">
+<input type="hidden" name="_token" value="uz6EvWOylNO4KHA0m0t3XtfbJWgXQyBx0QiFglNO">
+<div class="alert"></div>
+<div class="input_wrap">
+<select name="server">
+<option value="0">Сервер</option>
+<option value="1">Moscow RP</option>
+</select>
+</div>
+<div class="input_wrap">
+<input type="text" name="account" id="account" placeholder="Введите ник">
+</div>
+<div class="input_wrap">
+<img src="images\double.png" alt="" class="x2 disabled">
+<input type="text" name="sum" id="sum" placeholder="Введите сумму">
+</div>
+<p>
+<div class="input_wrap donate-gateways animated slideInLeft" id="donate_gateway_types">
+<p class="offtext" style="position: fixed;top: 0;">Выберите желаемый способ оплаты:</p>
+<div class="donate-gateways__option donate-gateways__option_unitpay donate-gateways__option_active animated zoomIn">
+
+</div>
+<div class="donate-gateways__option donate-gateways__option_qiwi animated zoomIn">
+
+</div>
+<input type="hidden" name="gateway_type" id="gateway_type" value="unitpay">
+</div>
+<div class="input_wrap">
+<div class="checkbox">
+<div class="block">
+<img src="images\icons\confirm.png" alt="">
+</div>
+<input type="checkbox" name="" id="ofert">
+</div>
+<div class="offtext">
+согласен с
+<span data-toggle="modal" data-target="#exampleModalScrollable"><a href="oferta.html">Офертой</a></span>
+</div>
+</div>
+<button type="submit" class="btn btn-lg btn-primary" id="pay_btn" disabled="">Пополнить</button>
+</form>
+</div>
+<div class="donate_form animated slideInLeft" id="confirm_window" style="display: none;">
+<div class="desc">Если все верно, нажмите кнопку Оплатить.</div>
+<div class="block_params">
+<div class="params">
+<div class="name">Игрок</div>
+<div class="value" id="nickName">Reiner_Ghost</div>
+</div>
+<div class="params">
+<div class="name">Сервер</div>
+<div class="value" id="serverDonate">Moscow RP</div>
+</div>
+<div class="params">
+<div class="name">Сумма</div>
+<div class="value" id="valueSum">5000 руб</div>
+</div>
+<div class="params">
+<div class="name">Rubl</div>
+<div class="value" id="pcCount">15pc</div>
+</div>
+</div>
+<div class="info" x-default-html="Вы будете перенаправлены на сайт платежной системы.<br><br>
+							Обратите внимание на комиссии этой системы, они будут указываться при выборе способа оплаты.">
+Вы будете перенаправлены на сайт платежной системы.<br><br>
+Обратите внимание на комиссии этой системы, они будут указываться при выборе способа оплаты.
+</div>
+<div class="input_wrap" style="display:none">
+<input type="text" id="email_confirm" placeholder="Ваша почта">
+</div>
+<div class="line_bottoms">
+<a href="" class="link_btn" id="pay_go">Оплатить</a>
+<button type="submit" id="cancel_pay">Исправить</button>
+</div>
+</div>
+</div>
+<div class="col-xl-6 col-lg-6">
+<div class="sale_block animated slideInRight">
+акция №1<br>акция №2<br>акция №3
+<br><br>
+<div class="text">Система доната не работает!</div>
+<img src="images\sale_text.png" alt="">
+</div>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-6">
+<div class="rand_block animated fadeInUp">
+<div class="name_block">
+<img src="images\pack_randcar.png" alt="">
+</div>
+<div class="block_images dataimages" data-src="/images/Perfect4.png" data-size="80%">
+</div>
+<div class="btn_buy" @click="openBuyPackages(1)">
+<img src="images\icons\shopping-cart.png" alt=""> КУПИТЬ <div class="cost">( 100 руб )</div>
+</div>
+</div>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-6">
+<div class="rand_block animated fadeInDown">
+<div class="name_block">
+<img src="images\pack_randskin.png" alt="">
+</div>
+<div class="block_images dataimages" data-src="/images/perfect_skins.png" data-size="cover">
+</div>
+<div class="btn_buy" @click="openBuyPackages(1)">
+<img src="images\icons\shopping-cart.png" alt=""> КУПИТЬ <div class="cost">( 150 руб )</div>
+</div>
+</div>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-6">
+<div class="rand_block animated fadeInUp">
+<div class="name_block">
+<img src="images\pack_randdoncar.png" alt="">
+</div>
+<div class="block_images dataimages" data-src="/images/perfect_cars.png" data-size="cover">
+</div>
+<div class="btn_buy" @click="openBuyPackages(1)">
+<img src="images\icons\shopping-cart.png" alt=""> КУПИТЬ <div class="cost">( 300 руб )</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="packages_section">
+<div class="container">
+<div class="row">
+<div class="col-xl-12">
+
+</div>
+</div>
+</div>
+</section>
+<footer>
+<div class="container">
+<div class="row">
+<div class="col-xl-4 col-lg-4">
+<a class="logo_footer" href="index.htm">
+<img src="images\footer_logo.png" alt="">
+Moscow RP 2022
+</a>
+</div>
+<div class="col-xl-8 col-lg-8">
+<ul class="footer_nav">
+<li><a href="https://vk.com/kremlinrp">Группа ВК</a></li>
+<li><a href="https://vk.com/kremlinrp">Помощь</a></li>
+</ul>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<script src="js\libs\jquery.min.js" type="eb4a966a4f55e593cc27d5c3-text/javascript"></script>
+<script src="js\libs\vue.min.js" type="eb4a966a4f55e593cc27d5c3-text/javascript"></script>
+<script src="js\libs\bootstrap.min.js" type="eb4a966a4f55e593cc27d5c3-text/javascript"></script>
+<script src="js\libs\jquery.nice-select.min.js" type="eb4a966a4f55e593cc27d5c3-text/javascript"></script>
+<script src="js\main.js?v=2" type="eb4a966a4f55e593cc27d5c3-text/javascript"></script>
+<style>
+.rand_block .btn_buy {
+	filter: grayscale(0.95) blur(1px);
+  cursor: not-allowed;
+}
+</style>
+<script src="cdn-cgi\scripts\7d0fa10a\cloudflare-static\rocket-loader.min.js" data-cf-settings="eb4a966a4f55e593cc27d5c3-|49" defer=""></script></body>
+</html>
